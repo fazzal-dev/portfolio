@@ -1,0 +1,25 @@
+.contact-info {
+  display: flex;
+  align-items: center;
+  position: relative;
+  left: 10%;
+  margin-top: 0.5rem;
+  background-color: #18181b;
+}
+
+input {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.7rem 1.5rem;
+  background-color: rgba(39, 39, 42, 0.25);
+  border-radius: 0.5rem;
+  color: rgb(161 161 170);
+  font-family: "Space Mono";
+  border: 0 solid #e5e7eb;
+  outline: none;
+  max-width: 270px;
+}
+
+input:focus {
+  outline: none;
+}

@@ -1,0 +1,18 @@
+.icon-button {
+  position: relative;
+  right: 35px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none;
+  background: none;
+  border: none;
+  width: 30px;
+  height: 30px;
+  user-select: none;
+}
+
+.icon:hover {
+  background-color: #3c3c3e;
+  border-radius: 0.4rem;
+}

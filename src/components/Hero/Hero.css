@@ -1,0 +1,79 @@
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 6rem 6rem;
+}
+
+.gt::before {
+  content: ">\A0";
+  display: inline-block;
+}
+
+.hero-title {
+  position: relative;
+  display: flex;
+  font-size: clamp(2.3rem, 8vw, 6rem);
+  left: 10%;
+}
+
+.hero-description {
+  position: relative;
+  left: 10%;
+  margin-right: 4rem;
+  margin-top: 1rem;
+  font-size: clamp(1rem, 2vw, 1.5rem);
+}
+.hero-container h2 {
+  color: var(--secondary-text);
+}
+
+.Typewriter__cursor {
+  background-color: rgb(161 161 170);
+}
+
+.ping-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--ping);
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 9999px;
+  position: relative;
+  right: 0.5rem;
+}
+
+@keyframes ping {
+  75%,
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.ping {
+  background-color: var(--ping);
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 9999px;
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.opportunity-status {
+  display: flex;
+  align-items: center;
+  left: 10.7%;
+  position: relative;
+  margin-top: 1rem;
+}
+
+.opportunity-status > p {
+  font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-container {
+    padding: 10rem 0;
+  }
+}
