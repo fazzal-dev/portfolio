@@ -65,7 +65,7 @@ export const DATA = {
       title: "Full Stack Developer",
       logoUrl: "/syncops.png",
       start: "July 2024",
-      end: "Present",
+      end: "March 2025",
       description:
         "Developing and maintaining full stack applications, working on both frontend and backend features. Collaborating with cross-functional teams to build scalable and efficient solutions using technologies like React,Next and Node.js.",
     },
